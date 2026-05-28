@@ -10,7 +10,7 @@ CORS(app)
 FIREBASE_URL = "https://domplex-ai-default-rtdb.asia-southeast1.firebasedatabase.app/chat_history.json"
 
 # 2. مفتاح OpenRouter الخاص بك
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 @app.route('/chat', methods=['POST'])
